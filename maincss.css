@@ -92,3 +92,20 @@ nav a:hover {
 .contact p {
     margin-bottom: 5px;
 }
+
+
+.video-container {
+    position: absolute;
+    left: 80px;      /* move from left side */
+    bottom: 120px;   /* adjust vertically */
+    z-index: 2;
+}
+
+.video-container video {
+    width: 500px;     /* adjust width to match blue box */
+    height: 340px;    /* optional: control height */
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
